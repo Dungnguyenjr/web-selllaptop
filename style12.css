@@ -1,0 +1,185 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(images/body.jpg);
+    border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+nav{
+  top: 0;
+ 
+  background-color: #ff8cad;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 1px 5px 8px gray;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 35px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+a.active,
+a:hover{
+  background: white;
+  color: slateblue;
+}
+
+.banner{
+  background: url(images/ban.jpg);
+  background-size: contain;
+  background-color: #38b6ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 404px;
+}
+.list{
+  background-color: ghostwhite;
+}
+
+th{
+  background-color:  gainsboro;
+  border: 1px solid #ccc;
+}
+
+td{
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.orderinfo{
+  margin-left: 20px;
+  background-color: ghostwhite;
+  padding: 10px;
+}
+
+.buy-btn{
+  float: right;
+  margin-top: 50px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  line-height: 40px;
+  background-color: green;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.buy-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.buy-btn a:hover{
+  color: #fff;
+  background-color: green;
+}
+
+.order{
+  width: 100%;
+  background-color: ghostwhite;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.login{
+  margin: 10px auto;
+  width: 40%;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#d1568b ;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s; /* Thêm transition ở đây */
+}
+
+input[type=submit]:hover {
+    background: #93F;
+    color: #172330;
+	color: white;
+}
+
+.success{
+  color: green;
+}
+
+.error{
+  color: red;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+input[type=number]{
+  font-size: 18px;
+  width: 100px;
+}
+
+.category{
+  margin-left: 100px;
+  width: 200px;
+}
+
+.pagination{
+  text-align: center;
+}
+.main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+.input[type=submit]:hover {
+  transition: 0.4s;
+  background: #93F;
+  color: #172330;
+}

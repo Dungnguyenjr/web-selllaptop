@@ -1,0 +1,131 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    display: table;
+    margin: 1em 0;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+.admin-menu {
+    width: 200px;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.admin-menu h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.admin-menu a:hover {
+    background: rgba(255,255,255,0.1);
+}
+.sidebar-brand-icon {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e7e7e7;
+        }
+
+        .sidebar-brand-text {
+            color: #3c4043;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        hr.sidebar-divider {
+            margin-top: 0;
+            margin-bottom: 15px;
+            border: 0;
+            border-top: 1px solid #e7e7e7;
+        }
+
+        div {
+            padding: 10px 15px;
+            border-bottom: 1px solid #e7e7e7;
+        }
+
+        div a {
+            color: #3c4043;
+            text-decoration: none;
+        }
+
+        div a:hover {
+            color: #007bff;
+        }
+		.sidebar-brand-icon {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #C0F;
+        }
+
+        .sidebar-brand-text {
+            color: #3c4043;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        hr.sidebar-divider {
+            margin-top: 0;
+            margin-bottom: 15px;
+            border: 0;
+            border-top: 1px solid #e7e7e7;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .menu-item {
+            padding: 10px 15px;
+            border-bottom: 1px solid #e7e7e7;
+        }
+
+        .menu-item a {
+            color: #3c4043;
+            text-decoration: none;
+        }
+
+        .menu-item a:hover {
+            color: #007bff;
+        }
+		

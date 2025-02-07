@@ -1,0 +1,428 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Mitr;
+  background: #FFF;
+}
+
+nav{
+  top: 0;
+  background-color: #ff8cad;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 1px 5px 8px gray;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 35px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #FFF;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+a.active,
+a:hover{
+
+  color: slateblue;
+}
+
+.banner{
+  background: url(images/Minisooo.jpg);
+  background-size: contain;
+  background-color: #38b6ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 404px;
+}
+
+.featuredProducts{
+  text-align: center;
+  background-color: #ff8cad;
+  color: white;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 63%;
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-gap: 30px;
+  padding: 30px;
+  z-index: 0;
+  margin: auto;
+}
+
+.container .card{
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.container .card .imgBx{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.container .card .imgBx img {
+  width: 50%; /* Giảm kích thước ngang của hình ảnh */
+  height: auto; /* Đặt kích thước dọc của hình ảnh tự động dựa trên kích thước ngang */
+}
+
+.container .card .imgBx:hover img{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.container .card .content{
+  text-align: center;
+}
+
+.productName a{
+  color: #6b00a8;
+  font-size: 20px; /* Tăng kích thước font của tên sản phẩm */
+}
+
+.container .card .content .price{
+  text-align: center;
+  color: darkred;
+  margin-right: 10px;
+  text-align: right;
+  font-size: 20px; /* Tăng kích thước font của giá sản phẩm */
+}
+
+.container .card .content .original-price{
+  text-align: center;
+  margin-right: 10px;
+  text-align: right;
+  font-size: 15px;
+}
+
+.rating{
+  color: gold;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.action{
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.action a {
+  width: 50%;
+  background:#ff8cad;
+  color: white;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.action .cart:hover {
+    transition: 0.4s;
+    background: #90F;}
+
+.action .cart {
+    width: 50%;
+    background: #ff8cad;
+    color: white;
+    border-bottom-left-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.action .detail{
+  width: 50%;
+  background: ff8cad;
+  color: white;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+} 
+
+.action .detail:hover{
+  transition: 0.4s;
+  background: #93F;
+  color: #FFF;
+}
+
+footer {
+  padding: 30px 0;
+  background-color:white;
+}
+
+footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+
+footer .social a{
+  color: inherit;
+  font-size: 24px;
+  border: 1px solid steelblue;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  transition: 0.5s;
+  background-color: white;
+  color: #2c3e50;
+  opacity: 0.8;
+}
+
+footer .social a:hover{
+  opacity: 1;
+}
+
+footer ul{
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+footer ul a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li{
+  display: inline;
+  padding: 0 15px;
+}
+
+footer ul li a:hover{
+  opacity: 1;
+  color: #070808;
+}
+
+footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}
+
+.container-single{
+  display: flex;
+  margin: 30px 100px;
+}
+
+.info{
+  padding-left: 20px;
+}
+
+
+.image-product img{
+  height: 450px;
+  width: 500px;
+}
+
+.name{
+  font-size: 25px;
+  color: #172330;
+}
+
+.price-single{
+  font-size: 20px;
+  color: brown;
+}
+
+.list{
+  background-color: ghostwhite;
+}
+
+th{
+  background-color: #FFF;
+  border: 1px solid cadetblue;
+}
+
+td{
+  border: 1px solid cadetblue;
+  text-align: center;
+}
+
+.orderinfo{
+  margin-left: 20px;
+  background-color: ghostwhite;
+  padding: 10px;
+}
+
+.buy-btn{
+  float: right;
+  margin-top: 50px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  line-height: 40px;
+  background-color: green;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.buy-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.buy-btn a:hover{
+  color: #fff;
+  background-color: green;
+}
+
+.order{
+  width: 100%;
+  background-color: ghostwhite;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.login{
+  margin: 10px auto;
+  width: 40%;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number], textarea, select {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ff8cad;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.success{
+  color: green;
+}
+
+.error{
+  color: red;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+input[type=number]{
+  font-size: 18px;
+  width: 100px;
+}
+.category {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: space-between; /* Căn chỉnh các phần tử để chúng cách đều nhau */
+  align-items: center; margin:0 740px; /* Căn chỉnh các phần tử theo trục dọc */ /* Thêm khoảng cách 10px ở hai bên của mỗi hộp */
+  font-size: 25px; /* Giảm kích thước font */
+  width: 1000px; /* Giảm kích thước ngang */
+}
+.category > div {
+  margin: 0 40px; /* Thêm khoảng cách 10px ở hai bên của mỗi hộp */
+}
+.pagination{
+  text-align: center;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.white-text {
+    color: #000;
+}
+.product-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product {
+	flex: 0 1 33%; /* Đảm bảo rằng mỗi sản phẩm chiếm 1/3 dòng */
+	box-sizing: border-box; /* Đảm bảo rằng padding và border không làm tăng kích thước của sản phẩm */
+	padding: 10px; /* Thêm khoảng cách giữa các sản phẩm */
+	text-align: left; /* Căn lề trái cho nội dung bên trong sản phẩm */
+}
+
+.product img {
+     width: 200px;
+}		
+.product-item {
+		flex: 0 1 33%; /* Đảm bảo rằng mỗi sản phẩm chiếm 1/3 dòng */
+		box-sizing: border-box; /* Đảm bảo rằng padding và border không làm tăng kích thước của sản phẩm */
+		padding: 10px; /* Thêm khoảng cách giữa các sản phẩm */
+}
+.product-item button {
+		white-space: normal; /* Cho phép nút có thể xuống dòng */
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Tạo khoảng cách đều giữa các sản phẩm */
+}
+
+.product {
+  flex: 0 1 calc(33.33% - 180px); /* Đảm bảo rằng mỗi sản phẩm chiếm 1/3 dòng trừ đi khoảng cách giữa các sản phẩm */
+  box-sizing: border-box; /* Đảm bảo rằng padding và border không làm tăng kích thước của sản phẩm */
+  margin: 20px; /* Tạo khoảng cách giữa các sản phẩm */
+  text-align: center; /* Căn giữa nội dung bên trong sản phẩm */
+}
+
+.product img {
+  width: 30%; /* Đảm bảo rằng hình ảnh sản phẩm chiếm toàn bộ chiều rộng của sản phẩm */
+}
+
+.product .action a {
+  display: block; /* Đảm bảo rằng mỗi liên kết hiển thị trên một dòng riêng */
+}
