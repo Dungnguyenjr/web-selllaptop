@@ -58,7 +58,7 @@ session_start();
     <div class="header">
         <div class="header1">
             <nav>
-                <label class="logo">MINISO VIETNAM</label>
+                <label class="logo">Laptop gaming</label>
                     <ul>
     <li><a href="index.php" style="color: #FFF"><strong>Trang chủ</strong></a></li>
     <li><a href="sanpham.php" style="color: #FFF"><strong>Sản phẩm</strong></a></li>
